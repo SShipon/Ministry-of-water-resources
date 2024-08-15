@@ -1,0 +1,173 @@
+[
+    {
+      "id": 1,
+      "title": "আমাদের বিষয়ে",
+      "ambition": "ভিশন ও মিশন",
+      "institute": "সাংগঠনিক কাঠামো",
+      "members": "কর্মকর্তাবৃন্দ",
+      "work": "কর্মবন্টন",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/3b598a9e_6974_4de2_8852_075180718d86/aboutus2.png"
+    },
+    {
+      "id": 2,
+      "title": "বিজ্ঞপ্তি/আদেশ/পরিপত্র",
+      "ambition": "বিদেশ ভ্রমণের জি.ও",
+      "institute": "পাসপোর্ট অনাপত্তি পত্র",
+      "members": "টেন্ডার / কোটেশন",
+      "work": "অফিস আদেশ / প্রজ্ঞাপন/ পরিপত্র",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/a881f106_c85e_4f90_a170_a2bc614b78b4/notice%20(1).png"
+    },
+    {
+      "id": 3,
+      "title": "নীতিমালা ও প্রকাশনা",
+      "ambition": "আইন ও বিধিমালা",
+      "institute": "নীতিমালা",
+      "members": "গাইডলাইন/নির্দেশিকা",
+      "work": "অন্যান্য",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/e765e320_a545_4b61_9cc7_3bd338997771/POLICY_PUBLICATION-New.png"
+    },
+    {
+      "id": 4,
+      "title": "নাগরিক ই-সেবাসমূহ",
+      "ambition": "বন্যা পূর্বাভাস ও সতর্কীকরণ কেন্দ্র",
+      "institute": "নদী দূষণ তথ্য ব্যবস্থাপনা",
+      "members": "নলেজ রিপোজিটরি সিস্টেম",
+      "work": "অন্যান্য",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/e765e320_a545_4b61_9cc7_3bd338997771/POLICY_PUBLICATION-New.png"
+    },
+    {
+      "id": 5,
+      "title": "সেবা প্রদান প্রতিশ্রুতি (সিটিজেন চার্টার)",
+      "ambition": "সেবা প্রদান প্রতিশ্রুতি",
+      "institute": "ফোকাল পয়েন্ট কর্মকর্তা, বিকল্প কর্মকর্তা ও পরিবীক্ষণ কমিটি",
+      "members": "ত্রৈমাসিক/বার্ষিক পরিবীক্ষণ/মূল্যায়ন প্রতিবেদন",
+      "work": "আইন/বিধি/নীতিমালা/পরিপত্র/নির্দেশিকা/প্রজ্ঞাপন",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/374f3ccf_ce44_4c6c_b876_532313bbf537/Untitled%20(1).png"
+    },
+    {
+      "id": 6,
+      "title": "বার্ষিক কর্মসম্পাদন চুক্তি",
+      "ambition": "নির্দেশিকা/পরিপত্র/এপিএ টিম/ফোকাল পয়েন্ট",
+      "institute": "বার্ষিক কর্মসম্পাদন চুক্তি ও ফলাফল",
+      "members": "পরিবীক্ষণ ও মূল্যায়ন/ প্রতিবেদন",
+      "work": "এপিএএমএস সফটওয়্যার লিংক",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/a9a992ea_75ac_41dd_8d46_ad994a2efbb4/apa_cab.png"
+    },
+    {
+      "id": 7,
+      "title": "জাতীয় শুদ্ধাচার কৌশল",
+      "ambition": "উত্তম চর্চা কর্মপরিকল্পনা সফটওয়্যার লিংক",
+      "institute": "নৈতিকতা কমিটি ও ফোকাল পয়েন্ট কর্মকর্তা",
+      "members": "পরিবীক্ষণ ও মূল্যায়ন প্রতিবেদন",
+      "work": "আইন/বিধি/নীতিমালা/পরিপত্র/প্রজ্ঞাপন",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/ce6e0436_668b_45b1_a257_86c321f782ee/nis_logo3.jpg"
+    },
+    {
+      "id": 8,
+      "title": "অভিযোগ প্রতিকার ব্যবস্থাপনা",
+      "ambition": "অনিক ও আপিল কর্মকর্তাগণ",
+      "institute": "কর্মপরিকল্পনা/পরিবীক্ষণ ও মূল্যায়ন প্রতিবেদন",
+      "members": "অভিযোগ দাখিল (অনলাইন)",
+      "work": "আইন/বিধি/নীতিমালা/পরিপত্র/নির্দেশিকা/ প্রজ্ঞাপন",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/c01d647f_cf51_4e87_9301_13b0260c67e0/complain%20(1).png"
+    },
+    {
+      "id": 9,
+      "title": "তথ্য অধিকার",
+      "ambition": "দায়িত্বপ্রাপ্ত কর্মকর্তা ও আপিল কর্তৃপক্ষ",
+      "institute": "আবেদন ও আপীল ফরম",
+      "members": "স্বপ্রণোদিত তথ্য প্রকাশ/ত্রৈমাসিক প্রতিবেদন",
+      "work": "আইন/বিধি/নীতিমালা/পরিপত্র/নির্দেশিকা/প্রজ্ঞাপন",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/6140d933_3e93_4c45_b6a7_7f269537b0d4/infocom.png"
+    },
+    {
+      "id": 10,
+      "title": "উদ্ভাবনী কার্যক্রম",
+      "ambition": "কর্মপরিকল্পনা /নির্দেশিকা/প্রকল্পসমূহ",
+      "institute": "ইনোভেশন টিম",
+      "members": "প্রজ্ঞাপন/পরিপত্র/নীতিমালা/সংকলন",
+      "work": "মুল্যায়ন প্রতিবেদন সফটওয়্যার লিংক",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/4f63ed18_6832_492d_9371_fc083b9d9505/INNOVATION%20(1).png"
+    },
+    {
+      "id": 11,
+      "title": "সেবা সহজিকরণ",
+      "ambition": "সেবা সহজিকরণ ম্যানুয়াল",
+      "institute": "প্রজ্ঞাপন/পরিপত্র/নীতিমালা/অফিস আদেশ/সংকলন",
+      "members": "সেবা সহজিকরণ তালিকা",
+      "work": "সেবা সহজিকরণের দৃষ্টান্ত",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/0a76aaa4_bf5a_4d8d_9e73_94d77eb597ea/SPS-3%20(1).png"
+    },
+    {
+      "id": 12,
+      "title": "বাজেট ও প্রকল্প",
+      "ambition": "বার্ষিক ক্রয় পরিকল্পনা",
+      "institute": "বাজেট ও এমটিবিএফ বাজেট",
+      "members": "বাজেট প্রতিবেদন/অফিস আদেশ",
+      "work": "গুরুত্বপূর্ণ সমাপ্ত প্রকল্পসমূহ",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/44ee74ed_acc1_4076_b162_9c68ba2853d2/budget2.png"
+    },
+    {
+      "id": 13,
+      "title": "এসডিজি ও উন্নয়ন কর্মপরিকল্পনা",
+      "ambition": "মন্ত্রণালয়ের এসডিজি",
+      "institute": "এসডিজি ফোকাল / বিকল্প ফোকাল পয়েন্ট",
+      "members": "এসডিজি জাতীয় ডকুমেন্ট",
+      "work": "পঞ্চবার্ষিকী পরিকল্পনা ও প্রতিবেদন",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/094e0648_0f16_450d_81df_dc9f1632c290/FinalLogoSDG.png"
+    },
+    {
+      "id": 14,
+      "title": "ফরমসমূহ",
+      "ambition": "বাংলাদেশ সরকারের ফরম",
+      "institute": "গাড়ী রিকুইজিশন ফরম",
+      "members": "উন্নয়ন প্রকল্প ও অফিস পরিদর্শন/সভা, সেমিনারে অংশগ্রহণের প্রেক্ষিত প্রতিবেদন ছক",
+      "work": "অন্যান্য ফরম",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/862f0762_5b4f_49a5_9b71_38fa458f76dc/forms%20logo.png"
+    },
+    {
+      "id": 15,
+      "title": "ভ্রমণসূচী",
+      "ambition": "cc",
+      "institute": "vv",
+      "members": "সচিবের ভ্রমণ/সফরসূচি",
+      "work": "অন্যান্য কর্মকর্তাগণ",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/57c38ef5_43c9_42bf_92d4_df87e0950cfc/%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0.png"
+    },
+    {
+      "id": 16,
+      "title": "মানব সম্পদ উন্নয়ন",
+      "ambition": "নিয়োগ সংক্রান্ত সকল তথ্য",
+      "institute": "অনলাইনে আবেদন",
+      "members": "প্রবেশপত্র ডাউনলোড",
+      "work": "নিয়োগ বিজ্ঞপ্তি",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/d81f3716_9d2e_418d_ae58_4ac5131dad23/-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A6%20(1).png"
+    },
+    {
+      "id": 17,
+      "title": "ব-দ্বীপ পরিকল্পনা, ব্লু ইকোনমি ও ইস্তাম্বুল কর্মপরিকল্পনা",
+      "ambition": "কর্মপরিকল্পনা",
+      "institute": "বাস্তবায়ন অগ্রগতি",
+      "members": "ইস্তাম্বুল কর্মপরিকল্পনা",
+      "work": "ব-দ্বীপ পরিকল্পনা",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/ddcd27a7_5406_4720_8188_7f48c43c90ad/delta.jpg"
+    },
+    {
+      "id": 18,
+      "title": "তথ্য ও সেবা",
+      "ambition": "এডিপি/আএডিপি ম্যানেজ. সিস্টেম",
+      "institute": "সরকারি সেবা হেল্পলাইন ৩৩৩",
+      "members": "বন্যা পূর্বাভাস জানতে কল ১০৯০",
+      "work": "জরুরি সেবা পেতে কল ৯৯৯",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/12e4eaf7_211f_4ad3_a773_03c3317ff6fe/Untitled.png"
+    },
+    {
+      "id": 19,
+      "title": "বিবিধ",
+      "ambition": "বিশ্ব পানি দিবস",
+      "institute": "চলমান প্রকল্পসমূহ",
+      "members": "বার্ষিক প্রতিবেদন",
+      "work": "অন্যান্য",
+      "img": "https://mowr.gov.bd/sites/default/files/files/mowr.portal.gov.bd/front_service_box/8b4e0568_b8e3_46d1_8d7d_c84aecffe277/Miscellaneous%20Logo.png"
+    }
+  ]

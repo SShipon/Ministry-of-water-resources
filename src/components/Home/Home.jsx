@@ -1,9 +1,8 @@
 
-import HomeCom from "../components/Home/Home";
 const Home = () => {
     return (
         <div>
-            <HomeCom />
+            <h2>This is home pages add</h2>
         </div>
     );
 };

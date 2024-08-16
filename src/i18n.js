@@ -7,7 +7,7 @@ const resources = {
     translation: {
       pageTitle:'Ministry of water resources',
       //navbar design 
-      welcome: "Ministry of Water Resources",
+      welcome: "Bangladesh National Information Portal",
       officeType: "Office Type",
       ministry: "Ministry / Department",
       divisional: "Divisional / Portal",
@@ -59,7 +59,7 @@ const resources = {
     translation: {
       pageTitle:'পানি সম্পদ মন্ত্রণালয়',
       // navbar design 
-      welcome: "পানি সম্পদ মন্ত্রণালয়",
+      welcome: "বাংলাদেশ জাতীয় তথ্য বাতায়ন",
       officeType: "অফিসের ধরণ",
       ministry: "মন্ত্রণালয় / বিভাগ",
       divisional: "বিভাগীয় / বাতায়ন",

@@ -47,12 +47,12 @@ const Navigation = () => {
             <div className="label"></div>
             <select className="select select-bordered text-black  w-full md:w-auto">
               <option selected>{t('officeType')}</option>
-              <option>{t('ministry')}</option>
-              <option>{t('divisional')}</option>
-              <option>{t('district')}</option>
-              <option>{t('upazila')}</option>
-              <option>{t('union')}</option>
-              <option>{t('others')}</option>
+              <option className="hover:cursor-pointer">{t('ministry')}</option>
+              <option className="hover:cursor-pointer">{t('divisional')}</option>
+              <option className="hover:cursor-pointer">{t('district')}</option>
+              <option className="hover:cursor-pointer">{t('upazila')}</option>
+              <option className="hover:cursor-pointer">{t('union')}</option>
+              <option className="hover:cursor-pointer">{t('others')}</option>
             </select>
           </label>
 

@@ -13,12 +13,12 @@ const Downloads = () => {
     <div className="p-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {downloadsData.map((item, index) => (
-          <div key={index} className="p-4  border border-purple-500 rounded-lg hover:shadow-lg transition-shadow duration-300">
+          <div key={index} className="p-4  border border-teal-300  rounded-lg hover:shadow-lg transition-shadow duration-300">
             <h2 className="text-base font-semibold mb-2">{item.name}</h2>
             <a
               href={item.link}
               download
-              className="text-purple-500 hover:text-purple-700"
+              className="text-teal-500 hover:text-teal-700"
             >
               ডাউনলোড করুন
             </a>

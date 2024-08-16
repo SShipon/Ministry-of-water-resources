@@ -43,10 +43,10 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {/* Ongoing Projects */}
         <div className="p-4">
-          <h2 className="text-lg font-semibold mb-2  text-purple-600">চলমান প্রকল্পসমূহ</h2>
+          <h2 className="text-base font-semibold mb-2  text-emerald-400">চলমান প্রকল্পসমূহ</h2>
           <ul>
             {projectData.ongoing.slice(0, visibleOngoingItems).map((project, index) => (
-              <li key={index} className="hover:text-purple-700 p-2 rounded">
+              <li key={index} className="hover:bg-emerald-700 p-2 rounded">
                 {project}
               </li>
             ))}
@@ -54,14 +54,14 @@ const Projects = () => {
           {visibleOngoingItems < projectData.ongoing.length ? (
             <button
               onClick={handleShowMoreOngoing}
-              className="mt-2 text-purple-600 hover:text-purple-700"
+              className="mt-2 text-emerald-400 hover:bg-emerald-700"
             >
               আরও দেখুন
             </button>
           ) : (
             <button
               onClick={handleShowLessOngoing}
-              className="mt-2 text-purple-600 hover:text-purple-700"
+              className="mt-2 text-emerald-400 hover:bg-emerald-700"
             >
               কম দেখুন
             </button>
@@ -70,10 +70,10 @@ const Projects = () => {
         
         {/* Completed Projects */}
         <div className="p-4">
-          <h2 className="text-lg font-semibold mb-2 text-purple-600">সমাপ্ত প্রকল্পসমূহ</h2>
+          <h2 className="text-base font-semibold mb-2 text-emerald-400">সমাপ্ত প্রকল্পসমূহ</h2>
           <ul>
             {projectData.completed.slice(0, visibleCompletedItems).map((project, index) => (
-              <li key={index} className="hover:text-purple-700 p-2 rounded">
+              <li key={index} className="hover:bg-emerald-700 p-2 rounded">
                 {project}
               </li>
             ))}
@@ -81,14 +81,14 @@ const Projects = () => {
           {visibleCompletedItems < projectData.completed.length ? (
             <button
               onClick={handleShowMoreCompleted}
-              className="mt-2 text-purple-600 hover:text-purple-700"
+              className="mt-2 text-emerald-400 hover:bg-emerald-700"
             >
               আরও দেখুন
             </button>
           ) : (
             <button
               onClick={handleShowLessCompleted}
-              className="mt-2 text-purple-600 hover:text-purple-700"
+              className="mt-2 text-emerald-400 hover:bg-emerald-700"
             >
            কম দেখুন
             </button>

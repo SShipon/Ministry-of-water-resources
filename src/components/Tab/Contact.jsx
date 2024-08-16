@@ -53,14 +53,14 @@ const Contact = () => {
         {!isExpanded ? (
           <button
             onClick={handleShowMore}
-            className="text-blue-600 hover:text-blue-800 transition-colors duration-300"
+            className="text-orange-600 hover:text-orange-800 transition-colors duration-300"
           >
             আরও দেখুন
           </button>
         ) : (
           <button
             onClick={handleShowLess}
-            className="text-blue-600 hover:text-blue-800 transition-colors duration-300"
+            className="text-orange-600 hover:text-orange-800 transition-colors duration-300"
           >
             কম দেখান
           </button>

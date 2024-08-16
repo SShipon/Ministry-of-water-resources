@@ -14,9 +14,10 @@ const Tab = () => {
   const [activeTab, setActiveTab] = useState(1);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [tabIndex, setTabIndex] = useState(0); // Track the current tab index for mobile view
+
   const tabs = [
-    { id: 1, label:  "মন্ত্রণালয় সম্পর্কিত",  },
-    { id: 2, label: "অধীনস্থ সংস্থাসমূহ",  },
+    { id: 1, label: "মন্ত্রণালয় সম্পর্কিত" },
+    { id: 2, label: "অধীনস্থ সংস্থাসমূহ" },
     { id: 3, label: "প্রকল্প", icon: <AiOutlineProject /> },
     { id: 4, label: "যোগাযোগ", icon: <AiOutlinePhone /> },
     { id: 5, label: "গ্যালারী", icon: <AiOutlinePicture /> },
@@ -44,6 +45,30 @@ const Tab = () => {
 
   const handleNextTab = () => {
     setTabIndex((prevIndex) => Math.min(prevIndex + 1, tabs.length - 1));
+  };
+
+  // Function to get styles based on active tab
+  const getTabStyles = (tabId) => {
+    switch (tabId) {
+      case 1:
+        return activeTab === tabId ? "bg-purple-500 border-purple-600 text-white" : "border-transparent";
+      case 2:
+        return activeTab === tabId ? "bg-cyan-500	 border-cyan-600 text-white" : "border-transparent";
+      case 3:
+        return activeTab === tabId ? "bg-emerald-400 border-emerald-600 text-white" : "border-transparent";
+      case 4:
+        return activeTab === tabId ? "bg-yellow-500 border-yellow-600 text-white" : "border-transparent";
+      case 5:
+        return activeTab === tabId ? "bg-orange-500 border-orange-600 text-white" : "border-transparent";
+      case 6:
+        return activeTab === tabId ? "bg-fuchsia-500 border-fuchsia-600 text-white" : "border-transparent";
+      case 7:
+        return activeTab === tabId ? "bg-teal-500 border-teal-600 text-white" : "border-transparent";
+      case 8:
+        return activeTab === tabId ? "bg-green-500 border-green-600 text-white" : "border-transparent";
+      default:
+        return "";
+    }
   };
 
   return (
@@ -104,10 +129,8 @@ const Tab = () => {
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`flex-1 p-2 text-center cursor-pointer ${
-              activeTab === tab.id
-                ? "border-b-4 border-purple-700 bg-purple-500 text-white rounded-md"
-                : "border-b-2 border-transparent"
+            className={`flex-1 p-2 text-center cursor-pointer border-b-4 rounded-md ${
+              getTabStyles(tab.id)
             }`}
             onMouseEnter={() => handleMouseEnter(tab.id)}
             onClick={() => setActiveTab(tab.id)}

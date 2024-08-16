@@ -8,10 +8,10 @@ const Services = () => {
   return (
     <section className="container mx-auto p-4 ">
       <div className="grid grid-cols-12 gap-2">
-        <div className="lg:col-span-9 col-span-12 bg-[#fff]">
+        <div className="lg:col-span-9 col-span-12 bg-[#fffffffd] rounded-md main">
           <Subjects />
         </div>
-        <div className="lg:col-span-3 col-span-12 bg-slate-200 flex flex-col min-h-screen">
+        <div className="lg:col-span-3 col-span-12  flex flex-col shadow-2xl rounded-md min-h-screen">
           <Sidebar />
 
           <div className="fixed bottom-0 left-0  right-0 lg:right-auto-22 lg:left-auto w-full lg:w-auto lg:mt-auto">

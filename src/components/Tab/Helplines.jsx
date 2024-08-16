@@ -19,8 +19,8 @@ const Helplines = () => {
     <div className="p-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {helplineData.map((item, index) => (
-          <div key={index} className="p-4 border-2 border-purple-300 rounded-lg hover:shadow-lg transition-shadow duration-300 flex items-center">
-            <FontAwesomeIcon icon={item.icon} className="text-2xl text-purple-600 mr-3" />
+          <div key={index} className="p-4 border border-green-300 rounded-lg hover:shadow-lg transition-shadow duration-300 flex items-center">
+            <FontAwesomeIcon icon={item.icon} className="text-2xl text-green-600 mr-3" />
             <div>
               <h2 className="text-base font-semibold mb-2">{item.name}</h2>
               <p className="text-lg font-bold ">{item.number}</p>

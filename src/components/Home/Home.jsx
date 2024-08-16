@@ -12,6 +12,7 @@ const Home = () => {
             <NoticeBoard />
            <Services />
            <WaterCat />
+          
         </div> 
     );
 };

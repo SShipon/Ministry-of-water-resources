@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import { ArrowBigLeft, ArrowBigRight, Circle, CircleDot } from "lucide-react";
 import "./image-slider.css";

@@ -126,7 +126,7 @@ const Footer = () => {
 
       {/* Scroll to top button */}
       <a
-        className="block text-3xl font-semibold text-right text-fuchsia-700"
+        className="block text-3xl font-semibold text-right lg:text-left text-fuchsia-700"
         id="#"
         href=""
       >

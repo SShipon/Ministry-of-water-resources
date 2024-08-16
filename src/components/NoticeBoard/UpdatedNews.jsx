@@ -23,7 +23,7 @@ const UpdatedNews = () => {
                         <Cursor cursorStyle='//' />
                     </span>
                 </div>
-                <span className='bg-purple-500 p-1 rounded text-white'>সকল</span>
+                <span className='bg-[#8027ce]  hover:bg-[#277667]  p-1 rounded text-white'>সকল</span>
             </div>
         </div>
     );

@@ -1,6 +1,7 @@
 import { FaBell, FaFileAlt, FaUserTie } from 'react-icons/fa';
-import PrimeMinister from '../Home/Services/PrimeMinister';
+import PrimeMinister from './PrimeMinister';
 import UpdatedNews from './UpdatedNews';
+import EndNews from './EndNews';
 
 
 const NoticeBoard = () => {
@@ -13,23 +14,25 @@ const NoticeBoard = () => {
                  {/* title add  */}
                 <ul>
                     <li className="flex items-center mb-2">
-                        <FaBell className="mr-2" /> অফিস আদেশ (সচিব মহোদয়ের রুটিন দায়িত্ব পালন)
+                        <FaBell className="mr-2" /> <span className='text-sm'>অফিস আদেশ (সচিব মহোদয়ের রুটিন দায়িত্ব পালন)</span>
                     </li>
                     <li className="flex items-center mb-2">
-                        <FaFileAlt className="mr-2" /> ই-নথি থেকে ডিজিটাল নথি/ডি-নথিতে মাইগ্রেশন প্রসঙ্গে।
+                        <FaFileAlt className="mr-2" /> <span className='text-sm'>ই-নথি থেকে ডিজিটাল নথি/ডি-নথিতে মাইগ্রেশন প্রসঙ্গে।</span>
                     </li>
                     <li className="flex items-center mb-2">
-                        <FaUserTie className="mr-2" /> অফিস আদেশ (সচিব মহোদয়ের রুটিন দায়িত্ব পালন)
+                        <FaUserTie className="mr-2" /> <span className='text-sm'>অফিস আদেশ (সচিব মহোদয়ের রুটিন দায়িত্ব পালন)</span>
                     </li>
                     <li className="flex items-center mb-2">
-                        <FaFileAlt className="mr-2" /> অফিস আদেশ (সচিব মহোদয়ের রুটিন দায়িত্ব পালন)
+                        <FaFileAlt className="mr-2" /> <span className='text-sm'>অফিস আদেশ (সচিব মহোদয়ের রুটিন দায়িত্ব পালন)</span>
                     </li>
                     <li className="flex items-center mb-2">
-                        <FaBell className="mr-2" /> নিয়োগ পত্রঃ পানি সম্পদ মন্ত্রণালয়ের কম্পিউটার অপারেটর, সাঁট মুদ্রাক্ষরিক কাম কম্পিউটা...
+                        <FaBell className="mr-2" /><span className='text-sm'> নিয়োগ পত্রঃ পানি সম্পদ মন্ত্রণালয়ের কম্পিউটার অপারেটর, সাঁট মুদ্রাক্ষরিক কাম কম্পিউটা...</span>
                     </li>
                 </ul>
                 
                  </div>
+                 <br />
+                 <EndNews />
                  <br />
                  <UpdatedNews />
             </div>

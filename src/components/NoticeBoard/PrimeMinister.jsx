@@ -1,12 +1,14 @@
-import SyedaRizwana from '../../../assets/img/Syeda-Rizwana.jpg'
-import nazmul from '../../../assets/img/nazmul.jpg'
+
+import SyedaRizwana from '../../assets/banner/Syeda-Rizwana.jpg'
+import nazmul from '../../assets/banner/nazmul.jpg'
+
 
 const PrimeMinister = () => {
     return (
         <div className='container'>
              <div className="flex flex-col md:flex-row gap-4 ">
             <div className="guestCard flex flex-col w-full bg-white shadow-xl rounded-lg overflow-hidden transform transition-transform hover:scale-105">
-              <h1 className="bg-[#C084FC] text-white text-center  font-semibold p-4">
+              <h1 className="bg-[#a672d4] text-white text-center  font-semibold p-4">
                 মাননীয় প্রধান উপদেষ্টা
               </h1>
               <div className="p-6 flex-grow">
@@ -29,7 +31,7 @@ const PrimeMinister = () => {
             </div>
 
             <div className="guestCard flex flex-col w-full bg-white shadow-xl rounded-lg overflow-hidden transform transition-transform hover:scale-105">
-              <h1 className="bg-[#C084FC] text-white text-center  font-semibold p-4">
+              <h1 className="bg-[#a672d4] text-white text-center  font-semibold p-4">
                 সিনিয়র সচিব
               </h1>
               <div className="p-6 flex-grow">

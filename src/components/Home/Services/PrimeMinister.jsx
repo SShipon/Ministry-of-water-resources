@@ -3,7 +3,7 @@ import nazmul from '../../../assets/img/nazmul.jpg'
 
 const PrimeMinister = () => {
     return (
-        <div className='my-8 container'>
+        <div className='container'>
              <div className="flex flex-col md:flex-row gap-4 ">
             <div className="guestCard flex flex-col w-full bg-white shadow-xl rounded-lg overflow-hidden transform transition-transform hover:scale-105">
               <h1 className="bg-[#C084FC] text-white text-center  font-semibold p-4">

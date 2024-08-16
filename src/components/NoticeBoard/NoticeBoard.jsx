@@ -1,5 +1,6 @@
 import { FaBell, FaFileAlt, FaUserTie } from 'react-icons/fa';
 import PrimeMinister from '../Home/Services/PrimeMinister';
+import UpdatedNews from './UpdatedNews';
 
 
 const NoticeBoard = () => {
@@ -27,7 +28,10 @@ const NoticeBoard = () => {
                         <FaBell className="mr-2" /> নিয়োগ পত্রঃ পানি সম্পদ মন্ত্রণালয়ের কম্পিউটার অপারেটর, সাঁট মুদ্রাক্ষরিক কাম কম্পিউটা...
                     </li>
                 </ul>
+                
                  </div>
+                 <br />
+                 <UpdatedNews />
             </div>
             <div className='lg:w-1/2 w-full'>
               <PrimeMinister />

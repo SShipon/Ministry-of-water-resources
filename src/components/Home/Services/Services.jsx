@@ -1,24 +1,30 @@
+import Subjects from "./Subjects";
 
-import { useContext } from "react";
+const Services = () => {
+  
 
-import { AuthContext } from "../../context/useContext";
-
-
-
-export default function Services() {
-
-  const{ data }= useContext(AuthContext)
-  console.log(data)
   
   return (
- 
-     <section>
-       <div className="flex ...">
-       <div  className="w-2/5 ...">w-2/5</div>
-       <div  className="w-3/5 ...">w-3/5</div>
-  
-  </div>
-     </section>
-  
+   
+ <section className="container mx-auto p-4 ">
+      <div className="grid grid-cols-12 gap-2">
+        <div className="lg:col-span-9 col-span-12 border border-emerald-600 border-navy text-center">
+            <h1>cols-2</h1>
+             <Subjects />
+        </div>
+        <div className="lg:col-span-3 col-span-12 border border-emerald-600 border-navy text-center">
+            <h1>cols-4</h1>
+        
+        </div>
+       
+        <div className="col-span-12  border border-emerald-600 text-center">
+            <h1>cols-12</h1>
+            
+        </div>
+    </div>
+</section>
+   
   );
-}
+};
+
+export default Services;

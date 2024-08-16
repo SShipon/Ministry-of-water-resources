@@ -21,7 +21,7 @@ const resources = {
        // footer design add
       support: "Support",
       support_hours: "Available from 10:00 AM to 5:00 PM",
-      store_locator: "Store Locator Details",
+      store_locator: "location details",
       quick_link: "Quick Link",
       upcoming_live_batch: "Home",
       live_workshop: "About Us",
@@ -56,7 +56,7 @@ const resources = {
       // footer design add
        support: "সহায়তা",
        support_hours: "সকাল ১০:০০ থেকে বিকাল ৫:০০ পর্যন্ত",
-       store_locator: "স্টোর লোকেটর বিস্তারিত",
+       store_locator: "অবস্থানের বিবরণ",
        quick_link: "উপকারি লিংক",
        upcoming_live_batch: "মূল পাতা",
        live_workshop: "আমাদের সম্পর্কে",

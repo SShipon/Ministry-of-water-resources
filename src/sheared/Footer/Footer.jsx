@@ -12,7 +12,7 @@ const Footer = () => {
       <br />
       <div className="flex flex-col lg:flex-row justify-between sm:items-enter">
         <div className="w-2/2 lg:w-3/7">
-          <div className="grid grid-cols-2 lg:gap-10 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 lg:gap-10 gap-6 md:grid-cols-2 lg:grid-cols-4">
             <div>
               <span className="text-xl">{t('support')}</span>
               <div className="mt-4">
@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>
                 <br />
                 <div className="flex gap-2 justify-center items-center p-2 contact__page__color">
-                  <i className="fa-solid fa-location-dot"></i>
+                  <i className="fa-solid fa-location-dot lg:-ml-20 ml-0"></i>
                   <p>{t('store_locator')}</p>
                 </div>
               </div>

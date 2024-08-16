@@ -1,0 +1,39 @@
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    top:0;
+    z-index: 1;
+   
+    
+}
+
+ 
+/* Light mode styles */
+body.light {
+  --bg-color: #f8f9fa;
+  --text-color: #212529; 
+}
+
+/* Dark mode styles */
+body.dark {
+  --bg-color: #212529;
+  --text-color: #f8f9fa;
+}
+
+/* Apply theme styles to body */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Navbar specific styles */
+.navbar {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbar.colorChange {
+  background-color: #27d3ca; /* Example color change on scroll */
+  color: var(--text-color);
+}

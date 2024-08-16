@@ -12,7 +12,7 @@ const UpdatedNews = () => {
                 <div className='flex  items-center '>
                 <h3>খবর:</h3>
             <span className='text-gradient text-xs'>{text}</span>
-           <span className='text-base text-sky-600'>
+           <span className='text-base text-purple-600'>
            <Cursor cursorStyle='//' />
            </span>
           

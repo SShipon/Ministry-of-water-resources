@@ -17,10 +17,10 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="bg-purple-500 p-2 fixed top-0 w-full z-50">
+    <nav className="bg-background-nav py-2  fixed top-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white flex justify-center items-center">
-          <img className="px-2 hidden lg:block" src={logo} alt="" />
+          <img className="px-2 hidden w-[60px] lg:block" src={logo} alt="" />
           <a className="text-1xl font-bold hidden lg:block" href="#">
             {t('welcome')}
           </a>

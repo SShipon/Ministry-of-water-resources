@@ -50,7 +50,10 @@ const resources = {
       details_center: "Ministry of Water Resources",
       content:"This ministry works on water management and formulating water-related policies. We are committed to ensuring safe and adequate water for everyone",
       webSiteCreate:'develop_by shipon ©2024 all_rights_reserved',
-      follow_us:"Follow Us"
+      follow_us:"Follow Us",
+      support_footer: "In technical support",
+      implementation:"  In planning and implementation: Cabinet Division, a2i, BCC, DoICT, and BASIS.",
+      websiteDate:"The site was last updated on: 2024-08-14 14:02:31"
     }  },
   bn: {
     translation: {
@@ -76,7 +79,7 @@ const resources = {
       title4: "বন্যা প্রতিরোধ ব্যবস্থা",
       desc4: "বন্যা প্রতিরোধে নির্মিত বাঁধ ও অন্যান্য প্রতিরোধমূলক ব্যবস্থার উন্নয়ন।",
       exploreMore: "আরও জানুন",
-
+    
       // footer design add
        support: "সহায়তা",
        support_hours: "সকাল ১০:০০ থেকে বিকাল ৫:০০ পর্যন্ত",
@@ -96,8 +99,10 @@ const resources = {
        details_center: "পানি সম্পদ মন্ত্রণালয়",
        content:'পানির ব্যবস্থাপনা এবং পানি সংক্রান্ত নীতিমালা প্রণয়নের জন্য এই মন্ত্রণালয় কাজ করে। আমরা সবার জন্য নিরাপদ ও পর্যাপ্ত পানি নিশ্চিত করতে প্রতিশ্রুতিবদ্ধ।  ',
        webSiteCreate:'ডেভেলপড বাই শিপন ©২০২৪ সমস্ত অধিকার সংরক্ষিত',
-       follow_us:'আমাদের অনুসরণ করুন'
-      
+       follow_us:'আমাদের অনুসরণ করুন',
+       support_footer: "কারিগরি সহায়তা :" ,
+       implementation:'পরিকল্পনা ও বাস্তবায়নে: মন্ত্রিপরিষদ বিভাগ, এটুআই, বিসিসি, ডিওআইসিটি ও বেসিস।',
+       websiteDate:"সাইটটি শেষ হাল-নাগাদ করা হয়েছে: ২০২৪-০৮-১৪ ১৪:০২:৩১"
     },
 
 

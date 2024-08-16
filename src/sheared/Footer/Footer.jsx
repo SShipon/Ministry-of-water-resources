@@ -38,7 +38,7 @@ const Footer = () => {
             {/* Support section */}
             <div className="mx-auto">
               <span className="text-xl font-medium">{t("support")}</span>
-              <div className="mt-4 text-slate-700">
+              <div className="mt-4 ">
                 <div className="flex items-center justify-center gap-2 p-2 contact_page_color">
                   <i className="fa-solid fa-phone"></i>
                   <p>{t("support_hours")}</p>
@@ -57,12 +57,12 @@ const Footer = () => {
                 <span className="text-xl font-medium">
                   {t("details_center")}
                 </span>
-                <p className="mt-4 text-slate-700">{t("content")}</p>
+                <p className="mt-4">{t("content")}</p>
               </div>
             </div>
 
             {/* Quick links section */}
-            <div className="mx-auto">
+            <div className="lg:mx-auto">
               <div className="text-color">
                 {linkData?.map((item, index) => {
                   if (item.type === "heading") {
@@ -75,7 +75,7 @@ const Footer = () => {
                     return (
                       <p
                         key={index}
-                        className={`text-slate-700 mt-${
+                        className={`mt-${
                           index === 1 ? "4" : "1"
                         } text-hover-line`}
                       >
@@ -88,13 +88,13 @@ const Footer = () => {
             </div>
 
             {/* Contact information section */}
-            <div className="mx-auto">
+            <div className="lg:mx-auto">
               <div className="text-color">
                 <span className="text-xl font-medium">{t("contacts")}</span>
-                <div className="mt-4">
+                <div className="mt-4 ">
                   {contactInfo?.map((item) => (
                     <a href="" key={item.key}>
-                      <p className="text-slate-700">{t(item.key)}</p>
+                      <p className="">{t(item.key)}</p>
                     </a>
                   ))}
                 </div>
@@ -105,18 +105,28 @@ const Footer = () => {
       </div>
 
       {/* Footer logo section */}
-      <div className="mt-6 mx-auto bg-white lg:w-[250px] lg:ml-auto flex lg:items-center justify-center lg:justify-end">
-        <img className="w-full" src={footerImg} alt="Logo" />
-      </div>
 
+      <div>
+       <div className="text-center py-8">
+       <span>{t('support_footer')}</span>
+       </div>
+      <div className="mt-2 mx-auto bg-white lg:w-[250px] lg:ml-auto flex lg:items-center justify-center lg:justify-end">
+        <img className="w-full" src={footerImg} alt="Logo" />
+        
+      </div>
+        <div className="text-center py-8">
+          <h3 className="py-4">{t("implementation")}</h3>
+        <span className="text-sm">{t("websiteDate")}</span>
+        </div>
       {/* Footer copyright section */}
-      <div className="mt-10 text-center">
+      <div className="mt-10 lg:text-left text-center">
         <p className="text-sm lg:text-sm">{t("webSiteCreate")}</p>
+      </div>
       </div>
 
       {/* Scroll to top button */}
       <a
-        className="block py-6 text-3xl font-semibold text-right text-fuchsia-700"
+        className="block text-3xl font-semibold text-right text-fuchsia-700"
         id="#"
         href=""
       >

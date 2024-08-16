@@ -9,17 +9,18 @@ const Subject = ({ service }) => {
             {/* Image or placeholder */}
             <div className="w-full h-32 flex items-center justify-center bg-gray-100">
                 {img ? (
-                    <img src={img} alt={title} className="lg:w-[90px]" />
+                    <img src={img} alt={title} className="lg:w-[100px]" />
                 ) : (
                     <FaImage className="text-gray-400 text-6xl" />
                 )}
             </div>
 
             {/* Title */}
-            <h2 className="text-base font-bold my-4 text-center text-black">{title || "Untitled"}</h2>
+           
 
             {/* Information container */}
             <div className="flex flex-col items-start w-full space-y-2">
+                 <h2 className="text-base font-bold mb-3  text-black">{title || "Untitled"}</h2>
                 {/* Work */}
                 <div className="flex items-center w-full">
                     <FaBook className="text-blue-500 mr-2" />

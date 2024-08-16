@@ -5,10 +5,10 @@ const WaterCat = () => {
     <div className="container mx-auto p-4 ">
       <div className="flex lg:flex-row flex-col">
       <div className="lg:w-1/2 w-full">
-        <h3 className="text-2xl font-bold  ">পানি, আমাদের জীবনের প্রধান উৎস।</h3>
+        <h3 className="lg:text-2xl text-base font-bold">পানি, আমাদের জীবনের প্রধান উৎস।</h3>
         <br />
        
-       <p>
+       <p className="text-sm text-justify pr-4">
          প্রতিটি জীবের বেঁচে থাকার জন্য এটি
         অপরিহার্য। পানি আমাদের পরিবেশকে সুস্থ ও সমৃদ্ধ রাখে। মানুষ নদী বা পুকুর
         থেকে পানি নিচ্ছে। শিশুরা পানিতে খেলা করছে, কেউ একজন কল থেকে পানি নিচ্ছে,
@@ -24,7 +24,7 @@ const WaterCat = () => {
         পানিতে সূর্যের প্রতিফলন হচ্ছে পানি, জীবন। আসুন, পানির সঠিক ব্যবহার
         নিশ্চিত করি।
       </p></div>
-        <div className="lg:w-1/2 w-full">
+        <div className="lg:w-1/2 w-full lg:my-0 my-4">
           <Water />
         </div>
        

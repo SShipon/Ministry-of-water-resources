@@ -30,7 +30,7 @@ const Navigation = () => {
         <div className="block md:hidden">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="text-white focus:outline-none"
+            className="text-white focus:outline-none w-14 text-4xl"
           >
             {menuOpen ? "✖" : "☰"}
           </button>

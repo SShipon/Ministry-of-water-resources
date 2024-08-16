@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
-import { ArrowBigLeft, ArrowBigRight, Circle, CircleDot } from "lucide-react";
+import {  Circle, CircleDot } from "lucide-react";
 import "./image-slider.css";
 import { useTranslation } from "react-i18next";
 
@@ -12,9 +12,7 @@ export function ImageSlider({ images }) {
     setImageIndex((index) => (index === images.length - 1 ? 0 : index + 1));
   }
 
-  function showPrevImage() {
-    setImageIndex((index) => (index === 0 ? images.length - 1 : index - 1));
-  }
+ 
 
   useEffect(() => {
     const interval = setInterval(showNextImage, 3000); 
@@ -55,22 +53,8 @@ export function ImageSlider({ images }) {
           </div>
         ))}
       </div>
-      <button
-        onClick={showPrevImage}
-        className="img-slider-btn"
-        style={{ left: 0 }}
-        aria-label="View Previous Image"
-      >
-        <ArrowBigLeft aria-hidden />
-      </button>
-      <button
-        onClick={showNextImage}
-        className="img-slider-btn"
-        style={{ right: 0 }}
-        aria-label="View Next Image"
-      >
-        <ArrowBigRight aria-hidden />
-      </button>
+
+  
       <div
         style={{
           position: "absolute",

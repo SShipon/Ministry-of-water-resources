@@ -22,7 +22,7 @@ const PrimeMinister = () => {
                 </div>
               </div>
               <div className="p-6">
-               <a href="https://mowr.gov.bd/site/office_head/7bdbbe42-217d-4729-97b8-45f6e49bedc4/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4"> <button className="w-full bg-[#BB9AB1] text-white py-2  rounded-full focus:outline-none">
+               <a href="https://mowr.gov.bd/site/office_head/7bdbbe42-217d-4729-97b8-45f6e49bedc4/%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4"> <button className="btn w-full   py-2 px-4 rounded hover:bg-purple-500 hover:text-white">
                   বিস্তারিত
                 </button></a>
               </div>
@@ -49,7 +49,7 @@ const PrimeMinister = () => {
                 </div>
               </div>
               <div className="p-6">
-                <button className="w-full bg-[#BB9AB1] text-white py-2  rounded-full focus:outline-none">
+                <button className="btn w-full  py-2 px-4 rounded hover:bg-purple-500 hover:text-white">
                   বিস্তারিত
                 </button>
               </div>

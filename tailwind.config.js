@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         'custom-background': '#F3F4F6',
-        'background-nav':'#683091'
+        'background-nav':'#693091',
+        'nationalSong': '#81DB8E'
         
         // কাস্টম কালার নাম 'custom-background' সহ যোগ করা
       },

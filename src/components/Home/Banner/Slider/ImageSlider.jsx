@@ -48,7 +48,7 @@ export function ImageSlider({ images }) {
             }}
           >
             <div className="overlay">
-              <h2>{t(`title${index + 1}`)}</h2>
+              <h2 className="text-base lg:text-3xl">{t(`title${index + 1}`)}</h2>
               <p>{t(`desc${index + 1}`)}</p>
               {/* <button className="overlay-button">{t("exploreMore")}</button> */}
             </div>

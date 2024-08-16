@@ -26,7 +26,7 @@ const Subjects = () => {
                 ))}
             </div>
             {showMore ? (
-                <div className="text-center mt-4">
+                <div className="text-center mt-4 flex lg:justify-end">
                     <button 
                         onClick={handleShowLess} 
                         className="bg-gray-500 text-white py-2 px-4 rounded"
@@ -36,7 +36,7 @@ const Subjects = () => {
                 </div>
             ) : (
                 visible < data.length && (
-                    <div className="text-center mt-4">
+                    <div className="text-center mt-4 flex lg:justify-end">
                         <button 
                             onClick={handleShowMore} 
                             className="bg-purple-500 text-white py-2 px-4 rounded"

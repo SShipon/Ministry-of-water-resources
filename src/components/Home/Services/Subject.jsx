@@ -9,7 +9,7 @@ const Subject = ({ service }) => {
             {/* Image or placeholder */}
             <div className="w-full h-32 flex items-center justify-center bg-gray-100">
                 {img ? (
-                    <img src={img} alt={title} className="lg:w-[100px]" />
+                    <img src={img} alt={title} className="lg:w-[90px]" />
                 ) : (
                     <FaImage className="text-gray-400 text-6xl" />
                 )}

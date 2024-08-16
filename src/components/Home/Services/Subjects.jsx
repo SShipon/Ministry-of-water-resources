@@ -5,17 +5,17 @@ import { AuthContext } from '../../context/useContext';
 
 const Subjects = () => {
     const { data } = useContext(AuthContext);
-    const [visible, setVisible] = useState(9); // Initially show 9 cards
-    const [showMore, setShowMore] = useState(false); // Track whether to show "Show More" or "Show Less" button
+    const [visible, setVisible] = useState(9); 
+    const [showMore, setShowMore] = useState(false); 
 
     const handleShowMore = () => {
-        setVisible((prevVisible) => prevVisible + 19); // Show 3 more cards
-        setShowMore(true); // Show "Show Less" button
+        setVisible((prevVisible) => prevVisible + 19); 
+        setShowMore(true); 
     };
 
     const handleShowLess = () => {
-        setVisible(9); // Reset to show the initial 9 cards
-        setShowMore(false); // Show "Show More" button
+        setVisible(9); 
+        setShowMore(false); 
     };
 
     return (

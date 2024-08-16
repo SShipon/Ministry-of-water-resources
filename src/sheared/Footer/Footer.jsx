@@ -41,12 +41,12 @@ const Footer = () => {
               <div className="mt-4 ">
                 <div className="flex items-center justify-center gap-2 p-2 contact_page_color">
                   <i className="fa-solid fa-phone"></i>
-                  <p>{t("support_hours")}</p>
+                  <p className="text-sm">{t("support_hours")}</p>
                 </div>
                 <br />
                 <div className="flex items-center justify-center gap-2 p-2 contact_page_color">
                   <i className="ml-0 fa-solid fa-location-dot lg:-ml-20"></i>
-                  <p>{t("store_locator")}</p>
+                  <p className="text-sm">{t("store_locator")}</p>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <span className="text-xl font-medium">
                   {t("details_center")}
                 </span>
-                <p className="mt-4">{t("content")}</p>
+                <p className="mt-4 text-sm">{t("content")}</p>
               </div>
             </div>
 
@@ -77,7 +77,7 @@ const Footer = () => {
                         key={index}
                         className={`mt-${
                           index === 1 ? "4" : "1"
-                        } text-hover-line`}
+                        } text-hover-line text-sm`}
                       >
                         {t(item.key)}
                       </p>
@@ -94,7 +94,7 @@ const Footer = () => {
                 <div className="mt-4 ">
                   {contactInfo?.map((item) => (
                     <a href="" key={item.key}>
-                      <p className="">{t(item.key)}</p>
+                      <p className="text-sm">{t(item.key)}</p>
                     </a>
                   ))}
                 </div>

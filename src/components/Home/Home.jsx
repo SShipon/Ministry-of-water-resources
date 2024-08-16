@@ -6,7 +6,7 @@ import Services from "./Services/Services";
 
 const Home = () => {
     return (
-        <div className="shadow-2xl ">
+        <div>
             <Banner />
             <Tab />
             <NoticeBoard />

@@ -106,14 +106,14 @@ const Tab = () => {
             key={tab.id}
             className={`flex-1 p-2 text-center cursor-pointer ${
               activeTab === tab.id
-                ? "border-b-4 border-purple-700 bg-purple-300 rounded-md"
+                ? "border-b-4 border-purple-700 bg-purple-500 text-white rounded-md"
                 : "border-b-2 border-transparent"
             }`}
             onMouseEnter={() => handleMouseEnter(tab.id)}
             onClick={() => setActiveTab(tab.id)}
           >
             <span className="text-base flex items-center justify-center">
-              <span className="mr-1">{tab.icon}</span>
+              <span className="mr-1 ">{tab.icon}</span>
               {tab.label}
             </span>
           </button>

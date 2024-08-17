@@ -23,7 +23,7 @@ const resources = {
 
       title1: "Safe Water Supply Initiative",
       desc1: "Ensuring the supply of pure and safe water through the Water Development Board.",
-      title2: "River and Waterbody Development",
+      title2: "River and Water body Development",
       desc2: "Various projects are being implemented for the development of rivers and waterbodies.",
       title3: "Irrigation Project Implementation",
       desc3: "Irrigation projects are being implemented to increase productivity in agriculture.",

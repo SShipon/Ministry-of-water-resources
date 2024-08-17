@@ -51,32 +51,16 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-2/2 my-10 lg:w-1/8 flex flex-col justify-center items-center">
-          <span className="-mt-10 text-xl">{t('follow_us')}</span>
-          <div className="mx-10 my-6">
-            <input
-              type="text"
-              placeholder={t('search_here')}
-              className="input input-bordered input-info sm:w-full max-w-xs"
-            />
-          </div>
-
-          <div>
-            <div className="flex gap-5 mt-6 text-2xl sm:order-1 -order-1">
-              <a href=""><i className="fa-brands fa-facebook"></i></a>
-              <a href=""><i className="fa-brands fa-linkedin"></i></a>
-              <a href=""><i className="fa-brands fa-github"></i></a>
-              <a href=""><i className="fa-brands fa-square-instagram"></i></a>
-              <a href=""><i className="fa-brands fa-twitter"></i></a>
-            </div>
-          </div>
-        </div>
+       
       </div>
-      <p className="lg:text-xl text-base">
-        {t('webSiteCreate')}
-      </p>
+     
       <div className=" bg-white lg:w-[250px] lg:ml-auto flex lg:items-center justify-center lg:justify-end">
   <img className='w-full' src={footerImg} alt="Logo" />
+</div>
+<div className='text-center'>
+<p className="lg:text-xl text-base">
+        {t('webSiteCreate')}
+      </p>
 </div>
       <a className="text-right block text-3xl font-semibold py-6 text-fuchsia-700" id="#" href="">
         <i className="fa-solid fa-arrow-up"></i>

@@ -68,7 +68,7 @@ const MinistryRelated = () => {
                 .map((subKey) => (
                   <li
                     key={subKey}
-                    className="p-2 hover:text-purple-700 transition-colors duration-300"
+                    className="p-2 hover:text-purple-700 transition-colors duration-300 hover:underline"
                   >
                     {ministryData[category][subKey]}
                   </li>

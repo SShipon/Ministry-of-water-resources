@@ -5,7 +5,9 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
   en: {
     translation: {
-      welcome: "Welcome to the Bangladesh National Portal",
+      pageTitle:'Ministry of water resources',
+      //navbar design 
+      welcome: "Ministry of Water Resources",
       officeType: "Office Type",
       ministry: "Ministry / Department",
       divisional: "Divisional / Portal",
@@ -52,8 +54,9 @@ const resources = {
     }  },
   bn: {
     translation: {
+      pageTitle:'পানি সম্পদ মন্ত্রণালয়',
       // navbar design 
-      welcome: "বাংলাদেশ জাতীয় তথ্য বাতায়ন ",
+      welcome: "পানি সম্পদ মন্ত্রণালয়",
       officeType: "অফিসের ধরণ",
       ministry: "মন্ত্রণালয় / বিভাগ",
       divisional: "বিভাগীয় / বাতায়ন",

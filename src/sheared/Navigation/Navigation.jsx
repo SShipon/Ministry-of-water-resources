@@ -1,8 +1,9 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable no-unused-vars */
 import React, { useContext, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { ThemeContext } from "../../components/context/ThemeContext";
 import "./navigation.css";
+import logo from '../../assets/img/logo.png';
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,11 +17,13 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="bg-blue-600 p-4">
+    <nav className="bg-purple-500 p-2 fixed top-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <div className="text-white text-xl font-bold hidden lg:block">
-          <a href="#">{t('welcome')}</a>
+        <div className="text-white flex justify-center items-center">
+          <img className="px-2 hidden lg:block" src={logo} alt="" />
+          <a className="text-1xl font-bold hidden lg:block" href="#">
+            {t('welcome')}
+          </a>
         </div>
 
         {/* Menu button for mobile view */}
@@ -39,9 +42,10 @@ const Navigation = () => {
             menuOpen ? "block" : "hidden"
           } md:flex items-center space-y-4 md:space-y-0 md:space-x-4`}
         >
+          {/* Other menu items */}
           <label className="form-control w-full -mt-3 md:w-auto">
             <div className="label"></div>
-            <select className="select select-bordered text-black w-full md:w-auto">
+            <select className="select select-bordered text-black  w-full md:w-auto">
               <option selected>{t('officeType')}</option>
               <option>{t('ministry')}</option>
               <option>{t('divisional')}</option>
@@ -84,7 +88,7 @@ const Navigation = () => {
                 {t('language')}
               </button>
               {languageOpen && (
-                <ul className="absolute right-0 z-10  mt-2 w-32 bg-white text-black rounded-md shadow-lg">
+                <ul className="absolute right-0 z-10 mt-2 w-32 bg-white text-black rounded-md shadow-lg">
                   <li
                     className="p-2 hover:bg-blue-200"
                     onClick={() => changeLanguage('bn')}

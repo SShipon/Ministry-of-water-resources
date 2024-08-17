@@ -50,7 +50,7 @@ export function ImageSlider({ images }) {
             <div className="overlay">
               <h2>{t(`title${index + 1}`)}</h2>
               <p>{t(`desc${index + 1}`)}</p>
-              <button className="overlay-button">{t("exploreMore")}</button>
+              {/* <button className="overlay-button">{t("exploreMore")}</button> */}
             </div>
           </div>
         ))}

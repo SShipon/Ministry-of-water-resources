@@ -3,7 +3,7 @@ import SliderBanner from "./Slider/SliderBanner";
 
 const Banner = () => {
     return (
-        <div>
+        <div className="my-22">
              <SliderBanner />
         </div>
     );

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import './footer.css';
-
+import footerImg from '../../assets/img/np-logo-set.png'
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -75,10 +75,13 @@ const Footer = () => {
       <p className="lg:text-xl text-base">
         {t('webSiteCreate')}
       </p>
-
+      <div className=" bg-white lg:w-[250px] lg:ml-auto flex lg:items-center justify-center lg:justify-end">
+  <img className='w-full' src={footerImg} alt="Logo" />
+</div>
       <a className="text-right block text-3xl font-semibold py-6 text-fuchsia-700" id="#" href="">
         <i className="fa-solid fa-arrow-up"></i>
       </a>
+
     </section>
   );
 };

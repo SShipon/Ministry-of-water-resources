@@ -1,3 +1,4 @@
+/* eslint-disable no-dupe-keys */
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
@@ -16,7 +17,17 @@ const resources = {
       language: "Language",
 
 
+      //banner design 
 
+      title1: "Safe Water Supply Initiative",
+      desc1: "Ensuring the supply of pure and safe water through the Water Development Board.",
+      title2: "River and Waterbody Development",
+      desc2: "Various projects are being implemented for the development of rivers and waterbodies.",
+      title3: "Irrigation Project Implementation",
+      desc3: "Irrigation projects are being implemented to increase productivity in agriculture.",
+      title4: "Flood Prevention Measures",
+      desc4: "Development of embankments and other preventive measures for flood control.",
+      exploreMore: "Explore More",
 
        // footer design add
       support: "Support",
@@ -41,6 +52,7 @@ const resources = {
     }  },
   bn: {
     translation: {
+      // navbar design 
       welcome: "বাংলাদেশ জাতীয় তথ্য বাতায়ন ",
       officeType: "অফিসের ধরণ",
       ministry: "মন্ত্রণালয় / বিভাগ",
@@ -51,7 +63,16 @@ const resources = {
       others: "অন্যান্য",
       search: "খুঁজুন",
       language: "ভাষা",
-
+ //banner design 
+      title1: "বিশুদ্ধ পানি সরবরাহের উদ্যোগ",
+      desc1: "পানি উন্নয়ন বোর্ডের মাধ্যমে বিশুদ্ধ ও নিরাপদ পানির সরবরাহ নিশ্চিত করা হচ্ছে।",
+      title2: "নদী ও জলাশয় উন্নয়ন",
+      desc2: "নদী ও জলাশয়ের উন্নয়নে বিভিন্ন প্রকল্প পরিচালিত হচ্ছে।",
+      title3: "সেচ প্রকল্প বাস্তবায়ন",
+      desc3: "কৃষিক্ষেত্রে উৎপাদনশীলতা বৃদ্ধির লক্ষ্যে সেচ প্রকল্প বাস্তবায়ন করা হচ্ছে।",
+      title4: "বন্যা প্রতিরোধ ব্যবস্থা",
+      desc4: "বন্যা প্রতিরোধে নির্মিত বাঁধ ও অন্যান্য প্রতিরোধমূলক ব্যবস্থার উন্নয়ন।",
+      exploreMore: "আরও জানুন",
 
       // footer design add
        support: "সহায়তা",

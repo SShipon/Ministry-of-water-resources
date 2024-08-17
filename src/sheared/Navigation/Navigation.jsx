@@ -84,7 +84,7 @@ const Navigation = () => {
                 {t('language')}
               </button>
               {languageOpen && (
-                <ul className="absolute right-0 mt-2 w-32 bg-white text-black rounded-md shadow-lg">
+                <ul className="absolute right-0 z-10  mt-2 w-32 bg-white text-black rounded-md shadow-lg">
                   <li
                     className="p-2 hover:bg-blue-200"
                     onClick={() => changeLanguage('bn')}
